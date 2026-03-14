@@ -65,9 +65,7 @@ git clone https://github.com/YeXiu96/alumni-tracking-system.git
 
 cd alumni-tracking-system
 
-3. Buka folder frontend
-
-4. Jalankan file berikut di browser
+3. Jalankan file berikut di browser
 
 index.html
 
