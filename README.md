@@ -61,11 +61,7 @@ Password : admin
 
 git clone https://github.com/YeXiu96/alumni-tracking-system.git
 
-2. Masuk ke folder project
-
-cd alumni-tracking-system
-
-3. Jalankan file berikut di browser
+2. Jalankan file berikut di browser
 
 index.html
 
