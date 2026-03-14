@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ATS Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>ATS</h2>
+
+<ul>
+<li>Dashboard</li>
+<li>Data Alumni</li>
+</ul>
+
+</div>
+
+<div class="main">
+
+<div class="topbar">
+<h1>Dashboard Alumni</h1>
+<button onclick="openForm()">+ Tambah Alumni</button>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>Total Alumni</h3>
+<p id="total">0</p>
+</div>
+
+<div class="card">
+<h3>Teridentifikasi</h3>
+<p id="found">0</p>
+</div>
+
+<div class="card">
+<h3>Belum Dilacak</h3>
+<p id="notTracked">0</p>
+</div>
+
+</div>
+
+<div class="table-container">
+
+<table>
+
+<thead>
+<tr>
+<th>Nama</th>
+<th>Tahun</th>
+<th>Prodi</th>
+<th>Status</th>
+<th>Pekerjaan</th>
+<th>Aksi</th>
+</tr>
+</thead>
+
+<tbody id="table"></tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<div class="modal" id="modal">
+
+<div class="modal-box">
+
+<h3>Tambah Alumni</h3>
+
+<input id="name" placeholder="Nama Alumni">
+<input id="year" placeholder="Tahun Lulus">
+<input id="major" placeholder="Prodi">
+
+<button onclick="addAlumni()">Simpan</button>
+<button onclick="closeForm()">Batal</button>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
